@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69b4b5ec-bd23-4221-9e33-7a3713944a0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/web/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fly.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nginx/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public/Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/Modais/NewCosts/formSchema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/Modais/NewCosts/modalNewCosts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/Modais/NewCosts/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/contexts/auth/authFunctions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/contexts/auth/authFunctions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/routes/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/routes/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/services/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/web/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J6Kz7ETLYobmfjCEGeG4infH3T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69b4b5ec-bd23-4221-9e33-7a3713944a0a" name="Changes" comment="" />
+      <created>1671393353037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671393353037</updated>
+      <workItem from="1671393355453" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
