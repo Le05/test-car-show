@@ -56,5 +56,5 @@ npm run dev
 
 Assim que terminar os passos acima, já será possivel ter a api e o front funcionando, portanto, basta acessar a url que foi retornada no terminal do front. Para acesso a tela interna de login, podes utilizar as credenciais abaixo
 
-**Email**: teste@teste.com
+**Email**: teste@teste.com <br>
 **Senha**: 123456
