@@ -13,13 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('modelos_precos', function (Blueprint $table) {
-            $table->id();
-            $table->float('preco',14,2)->default(0);
-            $table->boolean('promocional')->default(false);
-            $table->foreignId('modelo_id')->constrained('modelos');
-            $table->softDeletes();
-            $table->timestamps();
+        Schema::table('modelos', function (Blueprint $table) {
+            $table->float('preco',14,2)->nullable();
         });
     }
 
@@ -30,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('modelos_precos');
+        Schema::table('modelos', function (Blueprint $table) {
+            $table->dropColumn('preco');
+        });
     }
 };

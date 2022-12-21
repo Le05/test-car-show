@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 class Modelo extends Model
 {
     protected $fillable = ['nome', 'ano', 'quantidade_portas', 'quantidade_lugares', 'hodometro', 'marca_id',
-        'tipo_transmissao_veiculo_id', 'combustivel_id', 'tipo_veiculo_id','imagem_url'];
+        'tipo_transmissao_veiculo_id', 'combustivel_id', 'tipo_veiculo_id','imagem_url','preco'];
     protected $table = "modelos";
 
     use SoftDeletes;
@@ -47,7 +47,7 @@ class Modelo extends Model
     public static function transform($attributes)
     {
         if (isset($attributes['preco']))
-            $attributes['preco'] = FormataTudo::formatar($attributes['preco'], 'moeda', 'banco');
+            $attributes['preco'] = FormataTudo::formatar($attributes['preco'],'moeda','banco');
 
         return $attributes;
     }
@@ -59,7 +59,7 @@ class Modelo extends Model
         $attributesExtract = extrairDados($attributes, (new Modelo())->getFillable());
         $created = (new static)->newQuery()->create($attributesExtract);
 
-        ModeloPreco::create(['preco' => $attributes['preco'], 'promocional' => false, 'modelo_id' => $created->id]);
+//        ModeloPreco::create(['preco' => $attributes['preco'], 'promocional' => false, 'modelo_id' => $created->id]);
         DB::commit();
         return $created;
     }

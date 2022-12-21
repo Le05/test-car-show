@@ -289,7 +289,7 @@ export function Home() {
 
                                     </div>
                                     <div className='mt-5 flex justify-between items-center'>
-                                        <span className='text-2xl font-medium'>R$ {(modelo.precos[0].preco / 100).toLocaleString()}</span>
+                                        <span className='text-2xl font-medium'>R$ {(modelo.preco / 100).toLocaleString()}</span>
                                         <button className='py-2 px-4 bg-gray-700 hover:bg-gray-800 rounded text-white'>Ver detalhes</button>
                                     </div>
                                 </div>

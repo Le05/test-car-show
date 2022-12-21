@@ -8,5 +8,6 @@ export interface IFormInputs {
     marca_id: string
     tipo_transmissao_veiculo_id: string
     tipo_veiculo_id: string
+    preco: string
     combustivel_id: string
 }

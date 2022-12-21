@@ -1,4 +1,5 @@
 export interface Modelo {
+    preco: number
     id: number
     nome: string
     ano: string

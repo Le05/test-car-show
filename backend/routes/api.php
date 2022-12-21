@@ -24,7 +24,6 @@ Route::get('buscar-veiculos', [HomeController::class, 'buscarVeiculos']);
 
 Route::middleware('auth:sanctum')->group(function () {
 
-
     Route::group(['prefix' => 'marca'], function () {
         Route::post('criar', [MarcaController::class, 'criar']);
         Route::post('alterar', [MarcaController::class, 'alterar']);
