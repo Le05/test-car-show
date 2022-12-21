@@ -49,7 +49,14 @@ Logo em seguida execute o comando
 npm run dev
 ```
 
-**Atenção aos retornos do terminal, pois a porta dos servers podem mudar**
+**Atenção aos itens:**
+**Verificar sempre os retornos do terminal, pois a porta dos servers podem mudar**
+**Todas aplicação laravel necessita gerar uma chave de segurança, neste caso não é necessário, pois o arquivo .env está commitado, não é o correto, mas como é um projeto de teste, o mesmo foi incluso já**
+
+**Em casos de duvida sobre a chave de segurança, acesse https://laravel.com/docs/9.x/encryption#configuration**
+
+
+
 
 
 ## Como acessar
